@@ -1,2 +1,1 @@
-# CanSat_MarsOne_GroundStation
-Ground Station For CanSat Competition Korea 2022
+#Ground Station for CanSat Competition Korea 2022
