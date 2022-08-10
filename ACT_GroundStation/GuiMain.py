@@ -4,8 +4,6 @@ from threading import Timer
 from tkinter import font
 #from matplotlib.pyplot import title
 
-
-
 import pyqtgraph as pg
 from pyqtgraph import PlotWidget
 from pyqtgraph.Qt import QtCore, QtWidgets
