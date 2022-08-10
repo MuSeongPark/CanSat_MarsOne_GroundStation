@@ -59,13 +59,12 @@ class GroundStationUI(QWidget):
         super().__init__()
         self.comboBox = QComboBox()
         self.connect_btn = QPushButton('Connect')
-        #self.com = Communication()
         self.dataBase = DataBase()
 
         self.com = Communication(9600, self.comboBox, self.connect_btn)
         self.initUI()
-        #self.com = Communication(9600, self.comboBox)
         time.sleep(1)
+        
         ###
         #self.camThread = ThreadClass()
 
