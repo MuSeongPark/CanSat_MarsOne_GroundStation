@@ -64,7 +64,7 @@ class GroundStationUI(QWidget):
         self.com = Communication(9600, self.comboBox, self.connect_btn)
         self.initUI()
         time.sleep(1)
-        
+
         ###
         #self.camThread = ThreadClass()
 
@@ -296,6 +296,7 @@ class GroundStationUI(QWidget):
             
             except ValueError:
                 pass #value error for Serial communication error
+
 
 app = QApplication(sys.argv)
 ex = GroundStationUI()
